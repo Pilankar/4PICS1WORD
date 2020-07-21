@@ -1,0 +1,23 @@
+.image{
+     background-size:cover; width:auto; height: auto;
+     background-image:url('../../assets/icon/aquagradiant.png');
+     background-position:100% 100%;
+   }
+.logo{
+	width: 70%; height: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20%;
+	display: block;
+   }
+.appname{
+	font: bold 180% Broadway, Georgia, serif;
+	text-align: center;
+	}
+.play{
+	font-family: Jokerman,Broadway;
+}
+ion-button {
+	margin-top: 20%;
+	margin-bottom: 10%;
+}

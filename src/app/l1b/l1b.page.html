@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar color="medium">
+		<ion-button href="main-page" color="light"><ion-icon name="home"></ion-icon></ion-button><ion-title>LEVEL 1</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+	<img src="../../assets/icon/LEVEL1/L1-B.jpg" class="level1">
+	<div class="ion-padding">
+	<ion-item>
+		<ion-button color="primary" (click)="clear()"><ion-icon name="trash"></ion-icon></ion-button>
+		<ion-input type="text" maxlength="1" id="i1" [(ngModel)]="I1" readonly></ion-input>
+		<ion-input type="text" maxlength="1" id="i2" [(ngModel)]="I2" readonly></ion-input>
+		<ion-input type="text" maxlength="1" id="i3" [(ngModel)]="I3" readonly></ion-input>
+		<ion-button color="primary" (click)="complete1()">OK</ion-button>
+	</ion-item><br>
+		<ion-button class="ionbutton" color="secondary" id="T" (click)="T()">T</ion-button>
+		<ion-button class="ionbutton" color="secondary" id="P" (click)="P()" >P</ion-button>
+		<ion-button class="ionbutton" color="secondary" id="Q" (click)="Q()" >Q</ion-button>
+		<ion-button class="ionbutton" color="secondary" id="A" (click)="A()">A</ion-button><br>
+		<ion-button class="ionbutton" color="secondary" id="B" (click)="B()" >B</ion-button>
+		<ion-button class="ionbutton" color="secondary" id="S" (click)="S()" >S</ion-button>
+		<ion-button class="ionbutton" color="secondary" id="L" (click)="L()" >L</ion-button>
+		<ion-button class="ionbutton" color="secondary" id="O" (click)="O()" >O</ion-button>	
+	</div>	
+</ion-content>
